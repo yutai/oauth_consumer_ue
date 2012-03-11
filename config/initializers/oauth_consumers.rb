@@ -8,6 +8,11 @@ OAUTH_CREDENTIALS={
     :key => "ADup4zbS1udSyLxu1V9p8rhg1bdzeVQZzRXQcdDa",
     :secret => "Pcbf0QRJ2cFV1TzXSNaMCJX6a8vy2nlIsJDy9p4u",
     :expose => true
+  },
+  :rcrdev =>{
+    :key => "9cii1Wmbr3EoHG5z4NqolQeSR5flOA9fBTZdk0Sh",
+    :secret => "NZAIWkheaevpVGWet9m6xLcFi28SwBPYwq2mn1hq",
+    :expose => true
   }
 #   :twitter=>{
 #     :key=>"",

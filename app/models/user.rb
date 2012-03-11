@@ -7,5 +7,6 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
   
-  has_one  :test, :class_name=>"TestToken", :dependent=>:destroy
+  has_one :test,   :class_name=>"TestToken",   :dependent=>:destroy
+  has_one :rcrdev, :class_name=>"RcrdevToken", :dependent=>:destroy
 end
